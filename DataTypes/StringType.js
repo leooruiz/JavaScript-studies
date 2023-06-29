@@ -8,6 +8,11 @@ console.log(aMaiusculo)
 console.log(tique)
 console.log(hiragana) //exemplos de codificacao de caracteres
 
+const idade = 18
+const ano = '2023'
+let soma = idade+ano
+console.log(soma) //182023// Mesmo que seja uma soma entre number e string, ele recebe e soma os valores como strings; 18 + '2023' = 182023
+
 let nome = 'Leonardo'
 let input = 'leonardo'
 let ParaMinuscula = nome.toLowerCase()
@@ -16,8 +21,8 @@ let caracteres = nome.length
 console.log(caracteres)
 console.log(ParaMinuscula)
 console.log(ParaMaiuscula)
-console.log(ParaMinuscula === input) // comparação é VERDADEIRA pois todos os caracteres estão minúsculos
-console.log(nome === input) // comparação é FALSA pois não há convergência de minúsculas nas duas strings
+console.log(ParaMinuscula === input) //true// comparação é VERDADEIRA pois todos os caracteres estão minúsculos
+console.log(nome === input) //false// comparação é FALSA pois não há convergência de minúsculas nas duas strings
 
 let idadeTerra = '5 bilhões de anos aproximadamente'
 console.log(idadeTerra)
