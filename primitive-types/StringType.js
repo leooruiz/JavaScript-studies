@@ -11,7 +11,7 @@ console.log(hiragana) //exemplos de codificacao de caracteres
 const idade = 18
 const ano = '2023'
 let soma = idade+ano
-console.log(soma) //182023// Mesmo que seja uma soma entre number e string, ele recebe e soma os valores como strings; 18 + '2023' = 182023
+console.log(soma) //182023// Mesmo que seja uma soma entre number e string, ele recebe e soma os valores como strings, concatenando-os; 18 + '2023' = 182023
 
 let nome = 'Leonardo'
 let input = 'leonardo'
