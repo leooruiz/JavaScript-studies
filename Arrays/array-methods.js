@@ -1,6 +1,6 @@
-let frutas = ['banana', 'maçã', 'pera', 'manga', 'melancia', 'melão']
+let frutas = ['banana', 'maçã', 'pera2', 'manga2', 'melancia4', 'melão']
 let numeros = [ 1, 20, 3, 5, 40]
-
+console.log(typeof frutas)
 frutas.pop() // retira último índice do array, altera o array original removendo o elemento.
 console.log(frutas)
 
@@ -13,16 +13,16 @@ console.log(numeros)// adicionou o número 1 como último índice.
 numeros.unshift(60)// Funciona igual ao push(), porém adiciona na primeira posição e acaba trocando o índice de todos os elementos. Altera o array original com o novo valor.
 console.log(numeros)
 
-let somaArrays = frutas.concat(frutas, numeros) //concatena arrays (deve ser salvo o resultado em outra variável, pois não altera os arrays originais)
+let somaArrays = frutas.concat(numeros) //concatena arrays (deve ser salvo o resultado em outra variável, pois não altera os arrays originais)
 console.log(somaArrays)
 
-const filteredArray = frutas.filter(frutas => frutas.length > 4); //filtra os elementos que passam no teste da função.
+const filteredArray = frutas.filter((fruta, i, array) => fruta.includes(i)); //filtra os elementos que passam no teste da função.
 console.log(filteredArray); // Expected output: Array ["banana", "manga"]
 
 const findTest = frutas.find(fruta => fruta.length > 4) //Funciona de forma parecida com o filter, porém retorna apenas o primeiro valor que satisfizer o teste, podendo ser uma string ou um número.
 console.log(findTest)
 
-let indexFinder = frutas.findIndex(fruta => fruta.length > 4) //Funciona igual o find(), mas retorna o índice em vez do elemento, possibilitando usá-lo em outras partes do código.
+let indexFinder = frutas.findIndex(fruta => fruta.length < 4) //Funciona igual o find(), mas retorna o índice em vez do elemento, possibilitando usá-lo em outras partes do código.
 console.log(indexFinder)
 
 frutas.reverse() // Inverte a ordem dos elementos do array, então o primeiro vira o último, o segundo o penúltimo e assim por diante.

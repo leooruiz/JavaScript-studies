@@ -1,5 +1,6 @@
 let arrayVazia = [,,,];
 console.log(arrayVazia.length)
+console.log(arrayVazia)
 console.log(arrayVazia[0])
 console.log(arrayVazia[1])
 console.log(arrayVazia[2])
@@ -9,7 +10,8 @@ console.log(arrayVazia[2])
 // undefined
 arrayVazia = [,,,];
 console.log(arrayVazia.length)
-arrayVazia.push(50)
+arrayVazia.push(...[50,60]) // ... é utilizado para 
+arrayVazia.push(70) // 
 console.log(arrayVazia)
 console.log(arrayVazia.length)
 // 3

@@ -21,6 +21,6 @@ const alunos = [
   "Camilo",
 ];
 let sala1 = alunos.slice(0, alunos.length/2) //(0, 10)
-let sala2 = alunos.slice(alunos.length/2) // (10)
+let sala2 = alunos.slice(alunos.length/2) // (10) //quando cortar apenas um índice ele cortará todos a sua frente juntos
 console.log(sala1)
 console.log(sala2)
