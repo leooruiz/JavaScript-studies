@@ -10,7 +10,7 @@ const nomes = ['Evaldo', 'Mari', 'Camis']
 
 
 //Criando função callback de forma externa
-function imprimeNome(nome){
+function imprimeNome(nome) {
     console.log(nome)
 }
 nomes.forEach(imprimeNome) // deve ser sem parêntesis, pois senão é como se quisessemos o retorno da função, porém não estamos retornando nada na função imprimeNome
@@ -26,3 +26,12 @@ console.log(soma) //15
 // for…of em caso de iteráveis (dicionários, conjuntos e outras estruturas de dados) ou de arrays quando for necessário o uso de programação assíncrona e/ou dar condições de saída do laço (por exemplo, com o uso de break);
 
 // for para casos em que seja necessário manipular de forma mais fina as fases do laço (condição inicial, condição de parada e incremento).
+
+
+const arrayNums = [1, 2, 3, 4]
+function multiplicaPorDez(num) {
+    return num * 10
+}
+const arraySomada = arrayNums.map(multiplicaPorDez)
+
+console.log(arraySomada)

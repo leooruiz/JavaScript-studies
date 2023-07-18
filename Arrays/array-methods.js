@@ -45,6 +45,6 @@ console.log(numeros)
 
 // frutas.reduceRight()//Funciona igual o reduce() porém começa do final do array e segue até o início.
 
-let lastIndexFinder = frutas.lastIndexOf(fruta => fruta.length < 3)//É igual o findIndex() porém começa do último elemento, não no primeiro.
-// console.log(lastIndexFinder) // retornou -1. 
+let lastIndexFinder = frutas.lastIndexOf(fruta => fruta.length < 5)//É igual o findIndex() porém começa do último elemento, não no primeiro.
+ console.log(lastIndexFinder) // retornou -1. 
 //????????
