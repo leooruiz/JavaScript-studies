@@ -5,3 +5,4 @@ console.log(meuSet)
 const meuSetAtualizado = [...meuSet] // transforma o set em array
 
 console.log(meuSetAtualizado)
+

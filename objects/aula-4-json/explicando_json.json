@@ -1,0 +1,15 @@
+{
+  "nome": "Joao",
+  "email": "joao@firma.com",
+  "telefone": [
+    "11223344",
+    "11922334453"
+  ],
+  "endereco": {
+    "rua": "R. Joseph Climber",
+    "numero": 1337,
+    "apartamento": true,
+    "complemento": "ap 934"
+  },
+    "_comment": "json = javascript object notation, a diferença entre ele e objetos javascript é que ele não possui variável, chaves tem propriedade usam áspas duplas, é proibido trailling comma (colocar vírgula depois do último item), além de não permitir funções. comentários (é possível perceber pois estou utilizando um bloco para comentar) e suporta apenas tipos primitivos (string, number, boolean, null)"
+}
