@@ -1,5 +1,5 @@
 // métodos que podem ser utilizados em strings e suas respectivas funções
-console.log("alura".charAt(3)) // r é o valor que consta na posição 3 da string
+console.log("alura"[3]) // r é o valor que consta na posição 3 da string
 
 const palavra="Alura"
 console.log(palavra[0]) // A // usar a notação de colchetes para encontrar um caractere da string

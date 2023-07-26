@@ -3,8 +3,8 @@ let numeros = [1, 20, 3, 5, 40]
 
 console.log(typeof frutas) //object
 
-frutas.pop() // retira último índice do array, altera o array original removendo o elemento.
-console.log(frutas) //retirou melão do array
+let result = frutas.pop() // retira último índice do array, altera o array original removendo o elemento.
+console.log(result) //retirou melão do array
 
 
 numeros.shift()// Retira o primeiro elemento do array. Altera o array original removendo o elemento e trocando o índice de todos os elementos para um a menos do que eram, o índice 1 passa a ser o 0, o 2 passa a ser o 1, e assim por diante.
